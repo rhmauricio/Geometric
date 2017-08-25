@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rhmauricio.geometric.geometric_MainActivity">
+
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="91dp"
+    tools:layout_editor_absoluteX="17dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="234dp"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Triangulo"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="88dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Cubo"
+                    tools:layout_editor_absoluteX="220dp"
+                    tools:layout_editor_absoluteY="88dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Tipo de calculo"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="135dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Calculo"
+                    tools:layout_editor_absoluteX="128dp"
+                    tools:layout_editor_absoluteY="193dp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Cuadrado"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="Circulo"
+                    tools:layout_editor_absoluteX="220dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="177dp"
+                    android:layout_height="55dp"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="218dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
